@@ -22,7 +22,6 @@ import javafx.scene.control.ListCell;
 import javafx.scene.control.ListView;
 import javafx.scene.control.Slider;
 import javafx.scene.control.TextField;
-import javafx.scene.image.Image;
 import javafx.scene.input.Dragboard;
 import javafx.scene.input.TransferMode;
 import javafx.scene.layout.HBox;
@@ -31,7 +30,7 @@ import javafx.scene.media.Media;
 import javafx.scene.media.MediaPlayer;
 import javafx.scene.media.MediaView;
 
-public class Mp3Player extends Application {
+public class Main2 extends Application {
 	Connection conn;
 
     private MediaPlayer mediaPlayer;
@@ -211,7 +210,6 @@ public class Mp3Player extends Application {
         primaryStage.setScene(scene);
         primaryStage.setTitle("Ryan's Music Player");
         primaryStage.show();
-        primaryStage.getIcons().add(new Image(getClass().getResourceAsStream("assets/Music.png"))); //icon
     }
 
     private void initializeMediaPlayer(String path,String name) {
