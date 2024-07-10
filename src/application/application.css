@@ -1,0 +1,51 @@
+/* style.css */
+
+.root {
+    -fx-background-color: #2e2e2e;
+    -fx-padding: 10;
+}
+
+.button {
+    -fx-background-color: #b22222;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-padding: 8 15 8 15;
+}
+
+.button:hover {
+    -fx-background-color: #ff4500;
+}
+
+.text-field {
+    -fx-background-color: #4b4b4b;
+    -fx-text-fill: white;
+    -fx-padding: 10;
+    -fx-font-size: 14px;
+    -fx-prompt-text-fill: #c0c0c0;
+}
+
+.list-view {
+    -fx-background-color: #3c3c3c;
+    -fx-text-fill: white;
+    -fx-cell-hover-color: #ff6347;
+    -fx-padding: 10;
+    -fx-font-size: 14px;
+}
+
+.label {
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+}
+
+.slider .track {
+    -fx-background-color: #ff4500;
+}
+
+.slider .thumb {
+    -fx-background-color: #b22222;
+}
+
+.list-cell:hover {
+    -fx-background-color: #f0f0f0; /* 호버 배경색 */
+    -fx-text-fill: black; /* 호버 시 텍스트 색상 */
+}
