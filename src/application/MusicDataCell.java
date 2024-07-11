@@ -8,7 +8,7 @@ public class MusicDataCell extends ListCell<MusicData> {
     public MusicDataCell() {
         super();
         
-        // 호버 효과 추가
+        // hovering
         setOnMouseEntered((MouseEvent event) -> {
             if (!isEmpty()) {
                 setStyle("-fx-background-color: #f0f0f0; -fx-text-fill: black;");
